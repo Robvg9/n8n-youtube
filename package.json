@@ -8,7 +8,6 @@
   },
   "packageManager": "pnpm@10.12.1",
   "scripts": {
-    "start": "n8n"
     "prepare": "node scripts/prepare.mjs",
     "preinstall": "node scripts/block-npm-install.js",
     "build": "turbo run build",
